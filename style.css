@@ -104,8 +104,14 @@ p {
 
 #footer {
   position: absolute;
-  bottom: 0;
-  left: 35%;
+  bottom: 5%;
+  left: 30%;
+  background: url("https://i.ibb.co/89Cf3dm/text-bg.png") no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: animateBg 90s infinite linear;
+  font-size: 20px;
 }
 
 @keyframes animateBg {
@@ -115,5 +121,15 @@ p {
 
   100% {
     background-position: 70% 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .box {
+    width: 350px;
+  }
+
+  .lid {
+    width: 350px;
   }
 }
