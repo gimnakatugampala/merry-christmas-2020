@@ -1,12 +1,8 @@
-:root {
-  background: url("https://i.ibb.co/1sQXJ4z/page-bg.png") no-repeat center
-    center/cover;
-}
-
 body {
   /* background-color: #333; */
   background: url("https://i.ibb.co/1sQXJ4z/page-bg.png") no-repeat center
     center/cover;
+  height: 100vh;
   padding-top: 150px;
 }
 
