@@ -9,7 +9,7 @@ body {
 
 .present {
   width: 410px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .box,
@@ -92,13 +92,13 @@ p {
   margin: 0;
 }
 
-.present:hover .lid {
+.present .lid.play {
   top: -100px;
   transform: rotateZ(10deg);
   left: 10px;
 }
 
-.present:hover .promo {
+.present .promo.play {
   top: -80px;
 }
 
@@ -124,10 +124,10 @@ p {
 
 @media (max-width: 400px) {
   .box {
-    width: 260px;
+    width: 250px;
   }
 
   .lid {
-    width: 260px;
+    width: 250px;
   }
 }
