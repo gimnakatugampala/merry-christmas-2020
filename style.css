@@ -3,6 +3,7 @@ body {
   background: url("https://i.ibb.co/1sQXJ4z/page-bg.png") no-repeat center
     center/cover;
   height: 100vh;
+  overflow: hidden;
   padding-top: 150px;
 }
 
